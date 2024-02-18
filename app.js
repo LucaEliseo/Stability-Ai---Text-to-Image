@@ -1,6 +1,4 @@
-// INSERISCI LA TUA API KEY GENERATA DA STABILITY AI
-const API_KEY = '';
-
+const API_KEY = ''; // INSERISCI LA TUA API KEY GENERATA DA STABILITY AI
 const btn = document.getElementById('btnGenerate');
 const inputText = document.getElementById('input');
 const imageSection = document.getElementById('imageSection');
@@ -16,7 +14,7 @@ const getImages = async () => {
         body: JSON.stringify({
             text_prompts: [
                 {
-                    text: inputText.value, 
+                    text: inputText.value,
                 }
             ],
             cfg_scale: 7,
@@ -34,7 +32,7 @@ const getImages = async () => {
 
         if (data && data.artifacts) {
             const imageContainer = document.getElementById('imageContainer');
-            imageContainer.innerHTML = ''; // Cancella il contenuto precedente
+            imageContainer.innerHTML = '';
 
             data.artifacts.forEach(imageObject => {
                 const imageColumn = document.createElement('div');
