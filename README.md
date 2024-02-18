@@ -1,5 +1,5 @@
 # Text-to-Image Generator (Versione in Sviluppo)
-
+![Text-to-Image Generator](Home.jpeg)
 Questo progetto è un'applicazione web ancora in fase di sviluppo che utilizza l'API di Stability AI per generare immagini a partire da descrizioni testuali.
 
 ## Prerequisiti
