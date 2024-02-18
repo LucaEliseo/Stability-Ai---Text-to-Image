@@ -1,5 +1,5 @@
 // INSERISCI LA TUA API KEY GENERATA DA STABILITY AI
-const API_KEY = 'sk-lvksMz6DCJcmupcFvYGuxfRdlzUcHwfHbbQJQRds7ZWOuBwd';
+const API_KEY = '';
 
 const btn = document.getElementById('btnGenerate');
 const inputText = document.getElementById('input');
